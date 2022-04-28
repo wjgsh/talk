@@ -34,7 +34,7 @@
       params: { loginId, nickname, loginPwd }
     })
 
-    res && window.location.replace('/')
+    res && window.location.replace('./')
   }
 
   /* 定义验证函数 */

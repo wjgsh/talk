@@ -30,7 +30,7 @@
       method: 'POST',
       params: { loginId, loginPwd }
     })
-    res && window.location.replace('/')
+    res && window.location.replace('./')
 
     // const res = await fetch('https://study.duyiedu.com/api/user/login', {
     //   method: 'POST',
